@@ -1,0 +1,11 @@
+start_program_stock:
+  name: Start program (stock)
+  description: >-
+    Starts the appliance's currently-selected program sending only the
+    mandatory parameters, matching how selecting a program on the physical
+    dial works (no spin speed / dirty level / extra rinse overrides sent).
+    Some programs report a much shorter, more accurate duration this way
+    than a full custom start.
+  target:
+    device:
+      integration: hon
